@@ -7,7 +7,7 @@
 name = "clientai"
 description = "A unified client for AI providers with built-in agent support."
 version = "0.5.0"
-readme = { file = "README.md", content-type = "text/markdown" }
+readme = { file = ".github/README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
 authors = [{ name = "Igor Benav", email = "igor.magalhaes.r@gmail.com" }]
 maintainers = [{ name = "Igor Benav", email = "igor.magalhaes.r@gmail.com" }]
@@ -74,7 +74,7 @@ docs = [
 Documentation = "https://igorbenav.github.io/clientai/"
 Repository = "https://github.com/igorbenav/clientai/"
 Issues = "https://github.com/igorbenav/clientai/issues"
-Changelog = "https://github.com/LucasGoncSilva/mosheh/blob/main/.github/CHANGELOG.md"
+# Changelog = ""
 
 
 [tool.ruff]

@@ -100,7 +100,7 @@ def calculate_average(numbers: list[float]) -> float:
 
 analyzer = create_agent(
     client=client("groq", api_key="your-groq-key"),
-    role="analyzer", 
+    role="analyzer",
     system_prompt="You are a helpful data analysis assistant.",
     model="llama-3.2-3b-preview",
     tools=[calculate_average]
@@ -164,10 +164,10 @@ The ClientAI Agent module is built on four core principles:
 2. **Customization First**: Every component is designed to be extended or overridden. Create custom steps, tool selectors, or entirely new workflow patterns.
 
 3. **Zero Lock-In**: Start with high-level components and drop down to lower levels as needed. You can:
-    - Extend `Agent` for custom behavior
-    - Use individual components directly
-    - Gradually replace parts with your own implementation
-    - Or migrate away entirely - no lock-in
+   - Extend `Agent` for custom behavior
+   - Use individual components directly
+   - Gradually replace parts with your own implementation
+   - Or migrate away entirely - no lock-in
 
 ## Requirements
 
