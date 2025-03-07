@@ -22,9 +22,8 @@ theme:
       primary: custom
       accent: custom
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
-
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
@@ -41,6 +40,41 @@ plugins:
         python:
           rendering:
             show_source: true
+  - i18n:
+      languages:
+        - locale: en
+          name: en - English
+          build: true
+          default: true
+        - locale: pt
+          name: pt - Português (Brasil)
+          build: true
+          default: false
+          nav:
+            - ClientAI: pt/index.md
+            - Uso:
+              - Visão Geral: pt/usage/overview.md
+            - Exemplos:
+              - Visão Geral: pt/usage/overview.md
+            - Aprenda:
+              - Visão Geral: pt/usage/overview.md
+            - Avançado:
+              - Visão Geral: pt/usage/overview.md
+            - Referência da API:
+              - Visão Geral: pt/usage/overview.md
+            - ShowCases:
+              - Visão Geral: pt/usage/overview.md
+            - Comunidade:
+              - Visão Geral: pt/usage/overview.md
+
+extra:
+  alternate:
+    - name: en - English
+      link: /
+      lang: en
+    - name: pt - Português (Brasil)
+      link: /pt/pt
+      lang: pt
 
 nav:
   - ClientAI: index.md
