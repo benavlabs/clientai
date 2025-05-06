@@ -1,7 +1,7 @@
 # ClientAI
 
 <p align="center">
-  <a href="https://igorbenav.github.io/clientai/">
+  <a href="https://benavlabs.github.io/clientai/">
     <img src="assets/ClientAI.png" alt="ClientAI logo" width="45%" height="auto">
   </a>
 </p>
@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/igorbenav/clientai/actions/workflows/tests.yml">
-  <img src="https://github.com/igorbenav/clientai/actions/workflows/tests.yml/badge.svg" alt="Tests"/>
+<a href="https://github.com/benavlabs/clientai/actions/workflows/tests.yml">
+  <img src="https://github.com/benavlabs/clientai/actions/workflows/tests.yml/badge.svg" alt="Tests"/>
 </a>
 <a href="https://pypi.org/project/clientai/">
   <img src="https://img.shields.io/pypi/v/clientai?color=%2334D058&label=pypi%20package" alt="PyPi Version"/>
@@ -26,7 +26,7 @@
 
 <b>ClientAI</b> is a Python package that provides a unified framework for building AI applications, from direct provider interactions to transparent LLM-powered agents, with seamless support for OpenAI, Replicate, Groq and Ollama.
 
-**Documentation**: [igorbenav.github.io/clientai/](https://igorbenav.github.io/clientai/)
+**Documentation**: [benavlabs.github.io/clientai/](https://benavlabs.github.io/clientai/)
 
 ---
 
@@ -149,7 +149,7 @@ print(f"Sentiment: {result.sentiment}")
 print(f"Key Points: {result.key_points}")
 ```
 
-See our [documentation](https://igorbenav.github.io/clientai/) for more examples, including:
+See our [documentation](https://benavlabs.github.io/clientai/) for more examples, including:
 
 - Custom workflow agents with multiple steps
 - Complex tool integration and selection
@@ -184,5 +184,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Igor Magalhaes – [@igormagalhaesr](https://twitter.com/igormagalhaesr) – igormagalhaesr@gmail.com
-[github.com/igorbenav](https://github.com/igorbenav/)
+Benav Labs – [benav.io](https://benav.io)
+[github.com/benavlabs](https://github.com/benavlabs/)
