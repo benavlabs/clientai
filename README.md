@@ -186,3 +186,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Benav Labs – [benav.io](https://benav.io)
 [github.com/benavlabs](https://github.com/benavlabs/)
+
+<hr>
+<a href="https://benav.io">
+  <img src="docs/assets/benav_labs_banner.png" alt="Powered by Benav Labs - benav.io"/>
+</a>
